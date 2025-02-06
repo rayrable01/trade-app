@@ -1,4 +1,4 @@
-import { FC, useContext, useMemo } from "react"
+import { useContext, useMemo } from "react"
 import { CartesianGrid, Line, LineChart, ResponsiveContainer, Tooltip, XAxis, YAxis } from "recharts";
 import '../../App.css'
 import { MainContext} from "../../Provider/MainContext";
