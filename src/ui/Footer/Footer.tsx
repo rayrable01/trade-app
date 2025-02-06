@@ -18,23 +18,23 @@ export const Footer = () => {
         <footer className="footer">
             <div className="footer__container container">
                 <button className='footer__button active' onClick={handleClick}>
-                    <DashBoard width={35} height={35} />
+                    <DashBoard width={25} height={25} />
                     <span className='footer__descr'>Dashboard</span>
                 </button>
                 <button className='footer__button' onClick={handleClick}>
-                    <Rating width={35} height={35} />
+                    <Rating width={25} height={25} />
                     <span className='footer__descr'>Megabot</span>
                 </button>
                 <button className='footer__button' onClick={handleClick}> 
-                    <Market width={35} height={35} />
+                    <Market width={25} height={25} />
                     <span className='footer__descr'>Bot Market</span>
                 </button>
                 <button className='footer__button' onClick={handleClick}>
-                    <Coin width={35} height={35} />
+                    <Coin width={25} height={25} />
                     <span className='footer__descr'>Coin prices</span>
                 </button>
                 <button className='footer__button' onClick={handleClick}>
-                    <Settings width={35} height={35} />
+                    <Settings width={25} height={25} />
                     <span className='footer__descr'>Profile</span>
                 </button>
             </div>

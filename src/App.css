@@ -1,5 +1,8 @@
 #root {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
 }
 
 .container {
@@ -11,8 +14,8 @@
 }
 
 .header__container {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -75,8 +78,7 @@
 }
 
 .bots__container {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 5px;
 }
 
 .bots__list {
@@ -158,8 +160,8 @@
 }
 
 .time__container { 
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 18px;
   background-color: #002137;
   display: flex;
   align-items: center;
@@ -284,44 +286,43 @@
     grid-template-columns: repeat(3, minmax(96px, 1fr));
     grid-template-rows: repeat(2, 150px);
   }
-}
 
-
-.list__item:nth-child(3) {
-  background-image: url('./assets/firstbot.png');
-  background-position: -34px -500px;
-}
-
-.list__item:first-child {
-  background-image: url('./assets/yellow.png');
-  background-position: -167px -502px;
-}
-
-.list__item:nth-child(2) {
-  background-image: url('./assets/darkblue.png');
-  background-position: -168px -385px;
-}
-
-.list__item:nth-child(4) {
-  background-image: url('./assets/red2.png');
-  background-position: -301px -500px;
-}
-
-.list__item:nth-child(5) {
-  background-image: url('./assets/blue.png');
-  background-position: -300px -385px;
-}
-
-.list__item:last-child {
-  background-image: url('./assets/orange.png');
-  background-position: -34px -385px;
-}
-
-.time__wrapper {
-  gap: 9px;
-  flex-wrap: wrap;
-}
-
-.balance__current {
-  font-size: 28px;
+  .list__item:nth-child(3) {
+    background-image: url('./assets/firstbot.png');
+    background-position: -34px -500px;
+  }
+  
+  .list__item:first-child {
+    background-image: url('./assets/yellow.png');
+    background-position: -167px -502px;
+  }
+  
+  .list__item:nth-child(2) {
+    background-image: url('./assets/darkblue.png');
+    background-position: -168px -385px;
+  }
+  
+  .list__item:nth-child(4) {
+    background-image: url('./assets/red2.png');
+    background-position: -301px -500px;
+  }
+  
+  .list__item:nth-child(5) {
+    background-image: url('./assets/blue.png');
+    background-position: -300px -385px;
+  }
+  
+  .list__item:last-child {
+    background-image: url('./assets/orange.png');
+    background-position: -34px -385px;
+  }
+  
+  .time__wrapper {
+    gap: 9px;
+    flex-wrap: wrap;
+  }
+  
+  .balance__current {
+    font-size: 28px;
+  }
 }
